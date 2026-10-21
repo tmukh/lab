@@ -1,0 +1,39 @@
+# Rust
+target/
+**/*.rs.bk
+
+# C / native
+*.o
+*.obj
+*.out
+a.out
+*.exe
+**/malloc/malloc
+**/shell/shell
+
+# Go
+/go/**/bin/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Reverse engineering: never commit other people's binaries
+re/**
+!re/.gitkeep
+!re/**/*.md
+!re/**/*.py
+!re/**/*.txt
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Physics output
+*.ppm
+*.png
+!**/docs/*.png
